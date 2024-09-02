@@ -1,0 +1,5 @@
+8,Engineering Mathematics,Nirmal Marahatatta,7
+2,Engineering chemistry,khaii k ho,8
+3,Electronic device and circuit,kamal joshi,500
+45,Electric circuit,Pankaj rouniyar,500
+98,Electric machine,nawaraj poudel,500
