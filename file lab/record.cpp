@@ -20,11 +20,8 @@ Ensure that the number of copies is appropriately updated for each operation and
 #include <sstream>
 #include <string>
 #include <conio.h>
-
 using namespace std;
-
-const int MAX_BOOKS = 100; // Define a fixed size for the book array
-
+const int MAX_BOOKS = 100; 
 class Library {
     string ISBN, bookTitle, author;
     int numberOfCopies;
@@ -46,7 +43,6 @@ public:
         cin >> numberOfCopies;
         cin.ignore();
     }
-
     void showData() const {
         cout << "Book details\n";
         cout << "ISBN: " << ISBN << "\n";
@@ -54,7 +50,6 @@ public:
         cout << "Author: " << author << "\n";
         cout << "No. of copies: " << numberOfCopies << "\n";
     }
-
     static int readFromFile(Library books[]) {
         ifstream inf("Library.txt");
         if (!inf) {
